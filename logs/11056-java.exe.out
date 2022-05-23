@@ -1,0 +1,127 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 802milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 802"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56906"}
+{"logLevel":"info","message":"Listening on port:56906"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BaseStep.goBack' and 'BaseStep.goBack'"}
+{"logLevel":"debug","message":"Found {} kere geri sayfaya git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.sendKeyByID' and 'BaseStep.sendKeyByID'"}
+{"logLevel":"debug","message":"Found {} ID'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.randomPicker' and 'BaseStep.randomPicker'"}
+{"logLevel":"debug","message":"Found {} ile rastgele element seç. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.isElementVisibleByID' and 'BaseStep.isElementVisibleByID'"}
+{"logLevel":"debug","message":"Found {} ID'li ürün visible mı kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.swipeUpI' and 'BaseStep.swipeUpI'"}
+{"logLevel":"debug","message":"Found Sayfayı yukarı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.textControlByID' and 'BaseStep.textControlByID'"}
+{"logLevel":"debug","message":"Found {} bul ve {} değeri var mı kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.isElementVisibleByXpath' and 'BaseStep.isElementVisibleByXpath'"}
+{"logLevel":"debug","message":"Found {} Xpath'li element visible mı kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickElementByid' and 'BaseStep.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} ID'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickElementByxpath' and 'BaseStep.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} ID'li elemente tıkla : public void clickElementByid(String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} ID'li elemente {} değerini yaz : public void sendKeyByID(String Key, String keyword) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSayfayı yukarı kaydır : public void swipeUpI()"}
+{"logLevel":"debug","message":"\t{} Xpath'li element visible mı kontrol et. : public void isElementVisibleByXpath(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} bul ve {} değeri var mı kontrol et. : public void textControlByID(String id, String keyword) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kere geri sayfaya git : public void goBack(ınt number) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} ile rastgele element seç. : public void randomPicker(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kadar bekle : public void waitForsecond(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla. : public void clickElementByxpath(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} ID'li ürün visible mı kontrol et. : public void isElementVisibleByID(String id) throws InterruptedException"}
+Lokalde Android  test ayağa kalktı 
+May 23, 2022 11:36:31 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+WARN    2022-05-23 23:36:31,618 [pool-2-thread-1] BaseTest  - Emulatör Açıldı.
+{"logLevel":"debug","message":"Executing '{} kadar bekle' using 'class BaseStep.waitForsecond"}
+INFO    2022-05-23 23:36:36,663 [pool-2-thread-1] BaseTest  - 5 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} bul ve {} değeri var mı kontrol et.' using 'class BaseStep.textControlByID"}
+INFO    2022-05-23 23:36:39,675 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:39,766 [pool-2-thread-1] BaseTest  - tv_startShoppingStore ID'li elementin ALIŞVERİŞE BAŞLA değeri içerip içermediği kontrol edildi.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:36:41,837 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:41,838 [pool-2-thread-1] BaseTest  - tv_startShoppingStore ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} bul ve {} değeri var mı kontrol et.' using 'class BaseStep.textControlByID"}
+INFO    2022-05-23 23:36:44,870 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:44,931 [pool-2-thread-1] BaseTest  - edtSearch ID'li elementin Ara değeri içerip içermediği kontrol edildi.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:36:47,016 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:47,016 [pool-2-thread-1] BaseTest  - nav_categories ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} Xpath'li element visible mı kontrol et.' using 'class BaseStep.isElementVisibleByXpath"}
+INFO    2022-05-23 23:36:47,556 [pool-2-thread-1] BaseTest  - //*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][1] Xpath'li elementin görünür olduğu kontrol edildi.
+INFO    2022-05-23 23:36:50,563 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla.' using 'class BaseStep.clickElementByxpath"}
+INFO    2022-05-23 23:36:52,766 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:52,766 [pool-2-thread-1] BaseTest  - //*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2] Xpath'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla.' using 'class BaseStep.clickElementByxpath"}
+INFO    2022-05-23 23:36:54,913 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:54,913 [pool-2-thread-1] BaseTest  - //*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10] Xpath'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing 'Sayfayı yukarı kaydır' using 'class BaseStep.swipeUpI"}
+pointOptionStart io.appium.java_client.touch.offset.PointOption@76648326
+INFO    2022-05-23 23:36:55,829 [pool-2-thread-1] BaseTest  - Sayfa Yukarı Kaydırıldı.
+{"logLevel":"debug","message":"Executing 'Sayfayı yukarı kaydır' using 'class BaseStep.swipeUpI"}
+pointOptionStart io.appium.java_client.touch.offset.PointOption@52d02115
+INFO    2022-05-23 23:36:56,737 [pool-2-thread-1] BaseTest  - Sayfa Yukarı Kaydırıldı.
+{"logLevel":"debug","message":"Executing '{} ile rastgele element seç.' using 'class BaseStep.randomPicker"}
+INFO    2022-05-23 23:36:58,073 [pool-2-thread-1] BaseTest  - Rastgele Bir element Seçildi.
+INFO    2022-05-23 23:37:00,079 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} ID'li ürün visible mı kontrol et.' using 'class BaseStep.isElementVisibleByID"}
+INFO    2022-05-23 23:37:00,883 [pool-2-thread-1] BaseTest  - relLayAddCartBtn ID'li elementin görünür olduğu kontrol edildi.
+INFO    2022-05-23 23:37:03,893 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:37:05,960 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:05,960 [pool-2-thread-1] BaseTest  - imgFav ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} ID'li ürün visible mı kontrol et.' using 'class BaseStep.isElementVisibleByID"}
+INFO    2022-05-23 23:37:06,587 [pool-2-thread-1] BaseTest  - btnLogin ID'li elementin görünür olduğu kontrol edildi.
+INFO    2022-05-23 23:37:09,591 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente {} değerini yaz' using 'class BaseStep.sendKeyByID"}
+INFO    2022-05-23 23:37:12,167 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:12,167 [pool-2-thread-1] BaseTest  - etEposta ID'li elementin içine bugra@bugra.com yazıldı.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente {} değerini yaz' using 'class BaseStep.sendKeyByID"}
+INFO    2022-05-23 23:37:14,750 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:14,750 [pool-2-thread-1] BaseTest  - etPassword ID'li elementin içine sifre yazıldı.
+{"logLevel":"debug","message":"Executing '{} kere geri sayfaya git' using 'class BaseStep.goBack"}
+INFO    2022-05-23 23:37:14,802 [pool-2-thread-1] BaseTest  - 1 kere geri butonuna tıklandı.
+INFO    2022-05-23 23:37:15,812 [pool-2-thread-1] BaseTest  - 1 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:15,841 [pool-2-thread-1] BaseTest  - 2 kere geri butonuna tıklandı.
+INFO    2022-05-23 23:37:16,853 [pool-2-thread-1] BaseTest  - 1 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} ile rastgele element seç.' using 'class BaseStep.randomPicker"}
+INFO    2022-05-23 23:37:17,009 [pool-2-thread-1] BaseTest  - Rastgele Bir element Seçildi.
+INFO    2022-05-23 23:37:19,020 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:37:21,545 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:21,545 [pool-2-thread-1] BaseTest  - tvInSizeItem ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:37:23,633 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:23,633 [pool-2-thread-1] BaseTest  - relLayAddCartBtn ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente {} değerini yaz' using 'class BaseStep.sendKeyByID"}
+INFO    2022-05-23 23:37:26,212 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:26,212 [pool-2-thread-1] BaseTest  - etEposta ID'li elementin içine bugra.yurdagul@outlook.com yazıldı.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente {} değerini yaz' using 'class BaseStep.sendKeyByID"}
+INFO    2022-05-23 23:37:28,894 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:28,894 [pool-2-thread-1] BaseTest  - etPassword ID'li elementin içine q1w2e3r4t5 yazıldı.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:37:30,959 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:30,959 [pool-2-thread-1] BaseTest  - btnLogin ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} kere geri sayfaya git' using 'class BaseStep.goBack"}
+INFO    2022-05-23 23:37:31,003 [pool-2-thread-1] BaseTest  - 1 kere geri butonuna tıklandı.
+INFO    2022-05-23 23:37:32,006 [pool-2-thread-1] BaseTest  - 1 Saniye Kadar Beklendi.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:37:34,080 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:34,080 [pool-2-thread-1] BaseTest  - tvInSizeItem ID'li Elemente Tıklandı.
+{"logLevel":"debug","message":"Executing '{} ID'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+INFO    2022-05-23 23:37:36,145 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:36,145 [pool-2-thread-1] BaseTest  - relLayAddCartBtn ID'li Elemente Tıklandı.
+WARN    2022-05-23 23:37:36,149 [pool-2-thread-1] BaseTest  - Uygulama Kapatıldı. Test Bitti.

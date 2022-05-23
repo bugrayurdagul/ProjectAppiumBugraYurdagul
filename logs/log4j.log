@@ -1,0 +1,53 @@
+WARN    2022-05-23 23:36:31,618 [pool-2-thread-1] BaseTest  - Emulatör Açıldı.
+INFO    2022-05-23 23:36:36,663 [pool-2-thread-1] BaseTest  - 5 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:39,675 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:39,766 [pool-2-thread-1] BaseTest  - tv_startShoppingStore ID'li elementin ALIŞVERİŞE BAŞLA değeri içerip içermediği kontrol edildi.
+INFO    2022-05-23 23:36:41,837 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:41,838 [pool-2-thread-1] BaseTest  - tv_startShoppingStore ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:36:44,870 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:44,931 [pool-2-thread-1] BaseTest  - edtSearch ID'li elementin Ara değeri içerip içermediği kontrol edildi.
+INFO    2022-05-23 23:36:47,016 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:47,016 [pool-2-thread-1] BaseTest  - nav_categories ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:36:47,556 [pool-2-thread-1] BaseTest  - //*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][1] Xpath'li elementin görünür olduğu kontrol edildi.
+INFO    2022-05-23 23:36:50,563 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:52,766 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:52,766 [pool-2-thread-1] BaseTest  - //*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2] Xpath'li Elemente Tıklandı.
+INFO    2022-05-23 23:36:54,913 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:36:54,913 [pool-2-thread-1] BaseTest  - //*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10] Xpath'li Elemente Tıklandı.
+INFO    2022-05-23 23:36:55,829 [pool-2-thread-1] BaseTest  - Sayfa Yukarı Kaydırıldı.
+INFO    2022-05-23 23:36:56,737 [pool-2-thread-1] BaseTest  - Sayfa Yukarı Kaydırıldı.
+INFO    2022-05-23 23:36:58,073 [pool-2-thread-1] BaseTest  - Rastgele Bir element Seçildi.
+INFO    2022-05-23 23:37:00,079 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:00,883 [pool-2-thread-1] BaseTest  - relLayAddCartBtn ID'li elementin görünür olduğu kontrol edildi.
+INFO    2022-05-23 23:37:03,893 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:05,960 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:05,960 [pool-2-thread-1] BaseTest  - imgFav ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:37:06,587 [pool-2-thread-1] BaseTest  - btnLogin ID'li elementin görünür olduğu kontrol edildi.
+INFO    2022-05-23 23:37:09,591 [pool-2-thread-1] BaseTest  - 3 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:12,167 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:12,167 [pool-2-thread-1] BaseTest  - etEposta ID'li elementin içine bugra@bugra.com yazıldı.
+INFO    2022-05-23 23:37:14,750 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:14,750 [pool-2-thread-1] BaseTest  - etPassword ID'li elementin içine sifre yazıldı.
+INFO    2022-05-23 23:37:14,802 [pool-2-thread-1] BaseTest  - 1 kere geri butonuna tıklandı.
+INFO    2022-05-23 23:37:15,812 [pool-2-thread-1] BaseTest  - 1 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:15,841 [pool-2-thread-1] BaseTest  - 2 kere geri butonuna tıklandı.
+INFO    2022-05-23 23:37:16,853 [pool-2-thread-1] BaseTest  - 1 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:17,009 [pool-2-thread-1] BaseTest  - Rastgele Bir element Seçildi.
+INFO    2022-05-23 23:37:19,020 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:21,545 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:21,545 [pool-2-thread-1] BaseTest  - tvInSizeItem ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:37:23,633 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:23,633 [pool-2-thread-1] BaseTest  - relLayAddCartBtn ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:37:26,212 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:26,212 [pool-2-thread-1] BaseTest  - etEposta ID'li elementin içine bugra.yurdagul@outlook.com yazıldı.
+INFO    2022-05-23 23:37:28,894 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:28,894 [pool-2-thread-1] BaseTest  - etPassword ID'li elementin içine q1w2e3r4t5 yazıldı.
+INFO    2022-05-23 23:37:30,959 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:30,959 [pool-2-thread-1] BaseTest  - btnLogin ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:37:31,003 [pool-2-thread-1] BaseTest  - 1 kere geri butonuna tıklandı.
+INFO    2022-05-23 23:37:32,006 [pool-2-thread-1] BaseTest  - 1 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:34,080 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:34,080 [pool-2-thread-1] BaseTest  - tvInSizeItem ID'li Elemente Tıklandı.
+INFO    2022-05-23 23:37:36,145 [pool-2-thread-1] BaseTest  - 2 Saniye Kadar Beklendi.
+INFO    2022-05-23 23:37:36,145 [pool-2-thread-1] BaseTest  - relLayAddCartBtn ID'li Elemente Tıklandı.
+WARN    2022-05-23 23:37:36,149 [pool-2-thread-1] BaseTest  - Uygulama Kapatıldı. Test Bitti.

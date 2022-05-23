@@ -1,0 +1,55 @@
+Created by Buğra Yurdagül on 23.05.2022
+
+
+# Uygulamayı Aç ve Anasayfa Gelmiş Mi Kontrol Et
+* "5" kadar bekle
+* "tv_startShoppingStore" bul ve "ALIŞVERİŞE BAŞLA" değeri var mı kontrol et.
+* "tv_startShoppingStore" ID'li elemente tıkla
+* "edtSearch" bul ve "Ara" değeri var mı kontrol et.
+
+# Kategoriler Sayfası Aç
+* "nav_categories" ID'li elemente tıkla
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][1]" Xpath'li element visible mı kontrol et.
+
+# Kadın Üst Kategorisi Tıkla
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath'li elemente tıkla.
+
+# Pantolon Alt Kategorisi Tıkla
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10]" xpath'li elemente tıkla.
+
+# Sayfanın Aşağısına 2 Kere Kaydır
+* Sayfayı yukarı kaydır
+* Sayfayı yukarı kaydır
+
+# Rastgele Ürün Seç
+* "//*[@class='androidx.cardview.widget.CardView']" ile rastgele element seç.
+* "relLayAddCartBtn" ID'li ürün visible mı kontrol et.
+
+# Favoriler Butonuna Tıkla
+* "imgFav" ID'li elemente tıkla
+
+# Giriş Sayfasına Geç
+* "btnLogin" ID'li ürün visible mı kontrol et.
+* "etEposta" ID'li elemente "bugra@bugra.com" değerini yaz
+* "etPassword" ID'li elemente "sifre" değerini yaz
+
+# Geri Butonuna 2 Defa Tıkla
+* "2" kere geri sayfaya git
+
+# Rastgele Yeni Ürün Seç Ve Sepete Ekle
+* "//*[@class='androidx.cardview.widget.CardView']" ile rastgele element seç.
+* "tvInSizeItem" ID'li elemente tıkla
+* "relLayAddCartBtn" ID'li elemente tıkla
+
+# Yanlış Bilgilerle Giriş Yapılmadığı İçin Doğru Bilgilerle Giriş Yap
+* "etEposta" ID'li elemente "bugra.yurdagul@outlook.com" değerini yaz
+* "etPassword" ID'li elemente "q1w2e3r4t5" değerini yaz
+* "btnLogin" ID'li elemente tıkla
+* "1" kere geri sayfaya git
+
+# Ürünü Sepete Ekle
+* "tvInSizeItem" ID'li elemente tıkla
+* "relLayAddCartBtn" ID'li elemente tıkla
+
+
+
